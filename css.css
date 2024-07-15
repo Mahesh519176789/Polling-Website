@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color: #ff6347;
+}
+
+#poll-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #ff6347;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #fff8dc;
+}
+
+#options-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#options-list li {
+    margin-bottom: 10px;
+}
+
+#options-list label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4682b4;
+}
+
+#vote-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#vote-btn:hover {
+    background-color: #3e8e41;
+}
+
+#results-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ff6347;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #fff8dc;
+}
+
+.result {
+    margin-bottom: 10px;
+    color: #4682b4;
+}
+
+.result span {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #ff4500;
+}
